@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation style start */
+.nav-title{
+    margin-top:30Px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 120px;
+}
+nav ul li{
+    list-style: none;
+    margin:20Px;
+}
+nav ul{
+    display: flex;
+    margin-top:20Px;
+}
+
+.icon-size-1, .icon-size-2{
+    height: 20px;
+    width: 20px;
+}
+.header{
+    background-color: #AAAAAA;
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+/* Navigation style end */
+
+
+/*header  banner start */
+.banner{
+    display: flex;
+    margin:0px 120px;
+}
+.banner-title{
+    font-size: 52px;
+}
+.banner-descriPtion{
+    font-size: 15px;
+}
+
+.button1{
+    color:white;
+    background-color:deeppink;
+    border-radius:25Px;
+    border:none;
+    width:196Px;
+    height: 44px;
+}
+.arrowForwordIcon{
+    height: 10px;
+    width: 30px;
+    margin-left:10Px;
+}
+
+/*header banner end */
+
+/* main section start */
+main{
+    max-width: 1140px;
+    margin:30Px auto;
+}
+/* main section end */
+
+/* Ecommerce section start */
+.logos{
+    margin: 50Px 120Px;
+    display:flex;
+    list-style:none;
+    padding: 20px;
+}
+.logo-Icon{
+    margin:20Px;
+}
+.amagon-icon{
+    margin-top:27Px;
+}
+.Rakuten-icon{
+    margin-top:27Px;
+}
+.Walmart-icon{
+    margin-top: 27px;
+}
+/* Ecommerce section end */
+
+
+
+/* cart-section-start */
+
+.section-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30Px;
+    
+}
+.cart{
+    padding: 14px;
+    background-color:whitesmoke;
+    box-shadow: 0Px 6Px 20Px gray;
+    border-radius:20Px;
+}
+.image-resize{
+    width: 300px;
+    height:256px;
+}
+.star-icon{
+    height: 10px;
+    width: 10px;
+}
+.star-icons{
+    display: flex;
+}
+.rating{
+    margin-left:15Px;
+}
+
+
+.button2{
+    margin-top:50Px;
+    text-align: end;
+    margin-bottom:100Px;
+}
+.forword_icon2{
+    width:20Px;
+    height: 10px;
+}
+/* cart-section-end */
+
+
+/* feature Product section start */
+.feature-Product{
+    display: flex;
+    margin-bottom:170Px;
+}
+.feature-Product-details{
+    margin-left:30Px;
+    margin-top:50Px;
+    text-align: justify;
+}
+.feature-details{
+    margin-top:5Px;
+}
+.btn{
+    margin-top: 30px;
+    color:white;
+    background-color:deeppink;
+    width:196Px;
+    height: 44px;
+}
+.icon-size2{
+    width:20Px;
+    height:10Px;
+}
+/* feature Product section end */
+
+
+/* footer section start */
+.footer{
+    background-color:black;
+    height:300px;
+}
+.footer-details{
+    margin-left:500Px;
+}
+.footer-title, .footer-des, .footer-des1{
+    color:white;
+}
+.footer-des{
+    margin-bottom:30px;
+}
+.social-icons{
+    background-color: green;
+    width:50Px;
+    height:50Px;
+    border-radius:50%;
+    margin:10px;
+}
+.social-icon1{
+    margin-top: 70px;
+    margin-left:500Px;
+}
+/* footer section end */
+
+
+
+
+/* ResPonsive-design-start */
+@media screen and (max-width:576){
+    .logos{
+       flex-direction:column;
+    }
+}
+
+@media screen  and (max-width:576){
+    .cart-section{
+        margin-left: center;
+    }
+}
+/* ResPonsive-design-end */
+.hide{
+    display: none;
+}
+
